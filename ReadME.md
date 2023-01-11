@@ -24,15 +24,32 @@ TypeScript code has been written first, then it will be converted to plain JavaS
 
         sudo apt install node-typescript
 
+  If you Want to run ts file we need to convert it to js file then run the command
+
+        $ tsc index.ts
+        $ node index.js
+
   The bottom statement compiles the index.ts file into the index.js file.
 
-        $ tsc helloworld.ts
+        $ tsc index.ts
+
+Now if you change any thing iside index.ts file you should compilt it again or you can create cofig typeScript file and install watch package to listen automaticlly into any change happen iside index.ts file.
+
+To create configure file of typeScript run the command
+
+      $ tsc --init
+
+then run the command
+
+      $ tsc --watch
 
 - TypeScript Language Services - The TypeScript language service provides the relevant information which helps the editors and other tools to give better features such as IntelliSense and automated refactoring. It supports some standard editor operations like statement completion, signature help, code formatting and outlining, etc.
 
 ### Why Use TypeScript?
 
 ---
+
+(Catch bugs before run on browser, Types to discripe your code , Fully oop )
 
 - Object Oriented Programming Language - TypeScript provides support for Object Oriented Programming concepts like Classes, Interfaces, Inheritance, etc. TypeScript code can be written for both client-side and server-side development.
 
