@@ -43,6 +43,12 @@ then run the command
 
       $ tsc --watch
 
+Now we can shortcut all above things using the commend after install the package
+
+      $ npm i ts-node -g
+
+      $ ts-node index.ts
+
 - TypeScript Language Services - The TypeScript language service provides the relevant information which helps the editors and other tools to give better features such as IntelliSense and automated refactoring. It supports some standard editor operations like statement completion, signature help, code formatting and outlining, etc.
 
 ### Why Use TypeScript?
@@ -59,6 +65,39 @@ then run the command
 - TypeScript is Reliable - It has types that care for agility while re-structuring the code. It catches type-related errors at compile time rather than waiting for the runtime.
 
 - Static Type Checking - TypeScript uses static typing which is done using type annotations. It helps type checking at compile time. Hence, errors can be found while typing the code without running the code every time.
+
+---
+
+### Type system in typeScript
+
+---
+
+There are for permitive types in typeScript as same as JS
+
+- string : 'Ali'
+- number : 5 , 0.5
+- bollean: true / false
+- Date : 01-12-2023
+
+and there is a Cutome Type that you can created as {id , name , age}
+
+Note : you can't create any const or varibale without determine the type of it, if you don't determine the type, the typeScript compiler will gess the type depend on the value.
+
+      let name:string    = 'Ali';
+      let toogle:boolean = true;
+      let age:number     = 15;
+      let birthDate:Date = new Date();
+
+      let lastName = 'Omar' ;
+
+the type of lastName is string depend on the value.
+
+#### The benifits of types inside typeScript :
+
+- Catch the error before Runtime the code.
+- Discripe your code
+
+---
 
 ### Referance
 
