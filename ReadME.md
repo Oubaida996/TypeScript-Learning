@@ -72,7 +72,7 @@ Now we can shortcut all above things using the commend after install the package
 
 ---
 
-There are for permitive types in typeScript as same as JS
+There are for primitive types in typeScript as same as JS
 
 - string : 'Ali'
 - number : 5 , 0.5
