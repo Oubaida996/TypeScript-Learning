@@ -103,6 +103,13 @@ obj =15;
 
 A special type of data type that which can store multiple values of different data types sequentially using a special syntax.
 
+#### Object Types :
+
+The fundemental way that we group and pass around data is through objects.
+the object contains properties that represent the non-primitvie data (primitive data as string, number, boolean, undefined, null, Date).
+
+Each property in an object type must have a type that represent it.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
