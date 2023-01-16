@@ -92,6 +92,24 @@ Note : you can't create any const or varibale without determine the type of it, 
 
 the type of lastName is string depend on the value.
 
+TypeScript has a special type callled, any, that you can use whenever you don't want a particular value to cause type cheking errors.
+
+When a value is of type any, you can assign any vaule to it like string or number ..etc
+
+let obj:any = 'Ahmad'
+obj =15;
+
+#### Array :
+
+A special type of data type that which can store multiple values of different data types sequentially using a special syntax.
+
+#### Object Types :
+
+The fundemental way that we group and pass around data is through objects.
+the object contains properties that represent the non-primitvie data (primitive data as string, number, boolean, undefined, null, Date).
+
+Each property in an object type must have a type that represent it.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
