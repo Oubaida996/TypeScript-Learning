@@ -110,6 +110,12 @@ the object contains properties that represent the non-primitvie data (primitive 
 
 Each property in an object type must have a type that represent it.
 
+#### Custome Types :
+
+- Type Aliases :
+  It creates a new name for a type.
+  it doesn't actually create a new type - it creates a new name to refer to the type.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
