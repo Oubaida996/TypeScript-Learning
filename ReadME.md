@@ -116,6 +116,9 @@ Each property in an object type must have a type that represent it.
   It creates a new name for a type.
   it doesn't actually create a new type - it creates a new name to refer to the type.
 
+- Literal Types:
+  Literal types in TypeScript allow for narrowing down the type to the exact value. You can communicate in the type system that the value has to be exactly this string not a string or one of those particular numbers and not just any number. Until TypeScript 4.1, we had three literal types: strings, numbers, and booleans. TypeScript 4.1 introduced the fourth literal type: template literal.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
@@ -128,3 +131,4 @@ Each property in an object type must have a type that represent it.
 ---
 
 [Link : Scaler topics](https://www.scaler.com/topics/what-is-typescript/)
+[Link : Literal Types](https://michalzalecki.com/typescript-template-literal-types/)
