@@ -119,6 +119,14 @@ Each property in an object type must have a type that represent it.
 - Literal Types:
   Literal types in TypeScript allow for narrowing down the type to the exact value. You can communicate in the type system that the value has to be exactly this string not a string or one of those particular numbers and not just any number. Until TypeScript 4.1, we had three literal types: strings, numbers, and booleans. TypeScript 4.1 introduced the fourth literal type: template literal.
 
+#### Interface :
+
+is an abstract type that tells the compiler which property names a given object can have.
+
+An interface describes the shape of an object in TypeScript. They can be used to provide information about object property names and the datatypes their values can hold to the TypeScript compiler. An interface adds the functionality of strong type checking for your functions, variables, or the class that is implementing the interface.
+
+Interfaces make sure that everything is implemented as expected.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
@@ -131,4 +139,7 @@ Each property in an object type must have a type that represent it.
 ---
 
 [Link : Scaler topics](https://www.scaler.com/topics/what-is-typescript/)
+
 [Link : Literal Types](https://michalzalecki.com/typescript-template-literal-types/)
+
+[Link : Interface](https://www.educative.io/blog/typescript-interfaces)
