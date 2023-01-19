@@ -127,6 +127,10 @@ An interface describes the shape of an object in TypeScript. They can be used to
 
 Interfaces make sure that everything is implemented as expected.
 
+#### Clases :
+
+Classes are a common abstraction used in object-oriented programming (OOP) languages to describe data structures known as objects. These objects may contain an initial state and implement behaviors bound to that particular object instance. In 2015, ECMAScript 6 introduced a new syntax to JavaScript to create classes that internally uses the prototype features of the language. TypeScript has full support for that syntax and also adds features on top of it, like member visibility, abstract classes, generic classes, arrow function methods, and a few others.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
@@ -143,3 +147,5 @@ Interfaces make sure that everything is implemented as expected.
 [Link : Literal Types](https://michalzalecki.com/typescript-template-literal-types/)
 
 [Link : Interface](https://www.educative.io/blog/typescript-interfaces)
+
+[Link : Classes](https://www.digitalocean.com/community/tutorials/how-to-use-classes-in-typescript)
