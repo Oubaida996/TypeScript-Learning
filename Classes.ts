@@ -18,3 +18,30 @@ const personInstance = new Person();
 //private : I can't access into properties or methods from out the class itself.
 //protected : I just can access into properties or methods form subclass.
 //public : I can access into into properties or methods from anywhere.
+
+// public color:string it represents the property or field for Car class
+//Ex:
+/*  
+class Car{
+  color:string;
+  constructor(c:string){
+    this.color =c;
+  }
+} 
+*/
+
+class Car {
+  constructor(public model: string) {
+    console.log('Car class' + model);
+  }
+}
+
+// Inhertance :
+
+class Ford extends Car {
+  constructor() {
+    super('2012');
+  }
+}
+
+let ford1 = new Ford();
