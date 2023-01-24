@@ -131,6 +131,10 @@ Interfaces make sure that everything is implemented as expected.
 
 Classes are a common abstraction used in object-oriented programming (OOP) languages to describe data structures known as objects. These objects may contain an initial state and implement behaviors bound to that particular object instance. In 2015, ECMAScript 6 introduced a new syntax to JavaScript to create classes that internally uses the prototype features of the language. TypeScript has full support for that syntax and also adds features on top of it, like member visibility, abstract classes, generic classes, arrow function methods, and a few others.
 
+#### Generics :
+
+Generics is a tool for creating reusable components. Rather than working with a single data type, it builds a component that can interact with various data types. It enables users to consume these data components while also using their own data types.
+
 #### The benifits of types inside typeScript :
 
 - Catch the error before Runtime the code.
@@ -149,3 +153,5 @@ Classes are a common abstraction used in object-oriented programming (OOP) langu
 [Link : Interface](https://www.educative.io/blog/typescript-interfaces)
 
 [Link : Classes](https://www.digitalocean.com/community/tutorials/how-to-use-classes-in-typescript)
+
+[Link : Generics](https://medium.com/@smarthbajaj28_2237/typescript-generics-b66a379ccca7#:~:text=What%20are%20Typescript%20Generics%3F,using%20their%20own%20data%20types.)
